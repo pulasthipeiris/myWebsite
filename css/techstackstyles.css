@@ -1,0 +1,156 @@
+/*INDEX*/
+
+body{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p{
+      color: black;
+      font-family: "Montserrat", sans-serif;
+  }
+  
+  /* Headings */
+  
+  .big-heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-top: 3%;
+  }
+  
+  /* Navigation Bar */
+  
+  .navbar{
+    background-color: black;
+    padding: 1rem 4rem 1rem 2rem;
+  }
+  
+  
+  .navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .nav-item{
+    padding: 0 20px;
+  }
+  
+  .nav-link{
+    font-size: 0.9rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .nav-link:hover{
+    color: #ca3e47;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  
+  
+  /* Profile Image */
+  
+  .profile-picture{
+    width: 45%;
+  }
+  
+  @media (min-width: 1028px) {
+  
+     }
+  
+  @media (min-width: 768px) {
+  
+     }
+  
+  /* Title */
+  
+  #title{
+    background-color: white;
+  }
+  
+  #title .container-fluid{
+    padding: 5% 0 13%;
+    text-align: center;
+    width: 75%;
+  }
+  
+  .profile-icon{
+    color: black;
+    margin: 0 0.5%;
+  }
+  
+  .profile-icon:hover{
+    color: #ca3e47;
+    transition: 0.3s;
+  }
+  
+  .profile-desc{
+    text-align: center;
+    line-height: 2;
+    margin: 2% 10%;
+  }
+  
+  .resume-link{
+    font-size: 17px;
+    line-height: 2;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding: 4%;
+    text-decoration: none;
+  }
+  
+  .resume-link a{
+    color: #eeeeee;
+    background-color:#ca3e47;
+    border: 1px #eeeeee solid;
+    padding: 10px;
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  
+  .resume-link a:hover{
+    color: #eeeeee;
+    background-color:#ca3e47;
+    border: 1px #eeeeee solid;
+    padding: 10px;
+    opacity: 1;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  /* Resume */
+  
+  .resume{
+    background-color: #eeeeee;
+  
+  }
+  
+  /* Footer */
+  
+  #footer{
+    background-color: #f4f4f4;
+    padding: 120px 100px 50px;
+  }
+  
+  #footer {
+    color: #41444b;
+    text-align: right;
+    font-size: 10px;
+    
+  }
+  
+  /*TECH STACK*/
+  
+  /*TITLE*/
+  .tech-title{
+  margin: 50px;
+  }
+  
+  .tech-list p{
+    margin: 30px;
+    padding: 0 20%;
+    text-align: left;
+  }
